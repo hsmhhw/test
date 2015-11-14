@@ -1,0 +1,15 @@
+首先进入到“口令管理”界面，进行以下四个用户名和密码的修改：
+                   · 超级管理员：sys / change_on_install，实际工作之中不能使这个密码；
+                   · 普通管理员：system / manager，实际工作之中不能使这个密码；
+                   · 普通用户：scott / tiger，需要解锁，此用户是一个非常经典的用户；
+                   · 大数据用户（示例方案数据库）：sh / sh，需要解锁。
+
+scott  用户名；
+tiger  密码；
+
+SELECT * FROM emp ;  启动查询emp表
+SET LINESIZE 300 ;   设置每行显示长度
+SET PAGESIZE 30 ;    设置每页显示数据行数
+
+调用本机记事本 “ed 文件名”新建文件
+@文件名 执行；SQL文件不用加 ".sql"后缀
